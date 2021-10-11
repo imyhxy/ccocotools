@@ -1,10 +1,10 @@
 ## Fast COCOApi for `bbox` task
 
-This repository just copy and paste [PythonAPI](!https://github.com/cocodataset/cocoapi) from the
-official [cocoapi](!https://github.com/cocodataset/cocoapi/tree/master/PythonAPI), merge the C++ implementation
-of [`COCOeval`](!https://github.com/facebookresearch/detectron2/tree/main/detectron2/layers/csrc)
-in [detectron2](!https://github.com/facebookresearch/detectron2)
-into [`FastCOCOeval`](!https://github.com/imyhxy/ccocotools/tree/main/ccocotools/). Simplify all unnecessary
+This repository just copy and paste [PythonAPI](https://github.com/cocodataset/cocoapi) from the
+official [cocoapi](https://github.com/cocodataset/cocoapi/tree/master/PythonAPI), merge the C++ implementation
+of [`COCOeval`](https://github.com/facebookresearch/detectron2/tree/main/detectron2/layers/csrc)
+in [detectron2](https://github.com/facebookresearch/detectron2)
+into [`FastCOCOeval`](https://github.com/imyhxy/ccocotools/tree/main/ccocotools/). Simplify all unnecessary
 requirements and make it easy to install.
 
 ### Installation
@@ -50,5 +50,5 @@ The C++ implementation reduces 75% total time compares to the python one.
 
 ### Reference
 
-1. [COCOApi](!https://github.com/cocodataset/cocoapi)
-2. [Detectron2](!https://github.com/facebookresearch/detectron2)
+1. [COCOApi](https://github.com/cocodataset/cocoapi)
+2. [Detectron2](https://github.com/facebookresearch/detectron2)
