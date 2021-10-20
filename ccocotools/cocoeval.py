@@ -402,7 +402,7 @@ class COCOeval:
 
                         # numpy is slow without cython optimization for accessing elements
                         # use python array gets significant speed improvement
-                        pr = pr.tolist();
+                        pr = pr.tolist()
                         q = q.tolist()
 
                         for i in range(nd - 1, 0, -1):
@@ -432,7 +432,7 @@ class COCOeval:
     def summarize(self):
         '''
         Compute and display summary metrics for evaluation results.
-        Note this functin can *only* be applied on the default parameter setting
+        Note this function can *only* be applied on the default parameter setting
         '''
 
         def _summarize(ap=1, iouThr=None, areaRng='all', maxDets=100):

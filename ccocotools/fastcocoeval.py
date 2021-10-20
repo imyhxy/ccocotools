@@ -97,7 +97,7 @@ class FastCOCOeval(COCOeval):
 
         self._paramsEval = copy.deepcopy(self.params)
         toc = time.time()
-        logger.info("COCOeval_opt.evaluate() finished in {:0.2f} seconds.".format(toc - tic))
+        logger.info("FastCOCOeval.evaluate() finished in {:0.2f} seconds.".format(toc - tic))
         # >>>> End of code differences with original COCO API
 
     def accumulate(self):
@@ -123,4 +123,4 @@ class FastCOCOeval(COCOeval):
         self.eval["precision"] = np.array(self.eval["precision"]).reshape(self.eval["counts"])
         self.eval["scores"] = np.array(self.eval["scores"]).reshape(self.eval["counts"])
         toc = time.time()
-        logger.info("COCOeval_opt.accumulate() finished in {:0.2f} seconds.".format(toc - tic))
+        logger.info("FastCOCOeval.accumulate() finished in {:0.2f} seconds.".format(toc - tic))
