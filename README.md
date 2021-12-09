@@ -1,4 +1,4 @@
-## Fast COCOApi for `bbox` task
+## Fast COCOApi for COCO `bbox` task
 
 This repository just copy and paste [PythonAPI](https://github.com/cocodataset/cocoapi/tree/master/PythonAPI) from the
 official [cocoapi](https://github.com/cocodataset/cocoapi), merge the C++ implementation
@@ -50,5 +50,5 @@ The C++ implementation reduces 75% total time compares to the python one.
 
 ### Reference
 
-1. [cocoapi](https://github.com/cocodataset/cocoapi)
-2. [detectron2](https://github.com/facebookresearch/detectron2)
+* [cocoapi](https://github.com/cocodataset/cocoapi)
+* [detectron2](https://github.com/facebookresearch/detectron2)
